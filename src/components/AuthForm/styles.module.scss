@@ -1,41 +1,42 @@
-.loginFormContainer {
+.authFormContainer {
   margin: 150px auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.loginForm {
+.authForm {
   width: 450px;
-  height: 350px;
+  height: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-  //  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
   padding: 4px 8px;
+
+  .inf {
+    margin-top: 8px;
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
   > div {
     margin-bottom: 14px;
     width: 364px;
-
-    > p {
-      margin-bottom: 5px;
-      color: bisque;
-    }
   }
 }
 
-.btnContanaier {
+.btnContainer {
   margin-top: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  .btnLogin {
+  .btnAuthForm {
     margin-bottom: 4px;
     width: 280px;
   }
